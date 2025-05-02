@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <section id="characters" class="character">
+        <h2>Персонажи</h2>
+        <h3>Яко</h3>
+        <p>Главный герой, мальчик 6 лет, который пережил трагедию войны и потерял свою мать. Он ищет силы для борьбы за выживание и сталкивается с реальностью жестокого мира.</p>
+
+        <h3>Хама</h3>
+        <p>Девочка, с которой Яко знакомится в детдоме. Она становится его другом, и Яко влюбляется в нее. Хама имеет свою историю и переживания, связанные с войной и потерями.</p>
+
+        <h3>Мама Яко</h3>
+        <p>Мать Яко, которая, несмотря на опасности, пытается защитить своего сына в тяжелые времена. Ее смерть становится трагедией, с которой Яко должен смириться.</p>
+
+        <h3>Дядя Яко</h3>
+        <p>Дядя Яко, который помогает ему в трудные моменты, увозя его в безопасное место после трагедии. Он становится для Яко единственным родным человеком, на которого тот может опереться.</p>
+        <style>
+        body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+    header {
+      background: linear-gradient(to right, #ff416c, #ff4b2b);
+      padding: 30px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1e1e1e;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin:  0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .btn, .nav-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #ff4b2b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover, .nav-btn:hover {
+      background-color: #ff416c;
+    }
+    footer {
+      background-color: #1e1e1e;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .chapter {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: left;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .chapter h3 {
+      text-align: center;
+    }
+    .page {
+      display: none;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+    .page.active {
+      display: block;
+      opacity: 1;
+    }
+    </style>
+  <script>
